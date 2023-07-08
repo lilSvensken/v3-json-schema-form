@@ -1,0 +1,10 @@
+.select {
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 200ms;
+  width: 100%;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}

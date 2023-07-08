@@ -1,0 +1,30 @@
+.property {
+  display: flex;
+  width: clamp(100%, 250px, 100%);
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.09);
+}
+.property + .property {
+  margin-top: 10px;
+}
+.property__title {
+  font-size: 14px;
+  color: #323232;
+}
+.property__title--required {
+  padding-left: 10px;
+  position: relative;
+}
+.property__title--required:before {
+  position: absolute;
+  content: "*";
+  top: 2px;
+  left: 0;
+  color: var(--red-color);
+}
+.property__option {
+  font-size: 12px;
+  color: #737373;
+}
+
+/*# sourceMappingURL=style.css.map */

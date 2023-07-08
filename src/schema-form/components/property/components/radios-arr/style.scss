@@ -1,0 +1,10 @@
+.radios {
+  display: flex;
+  margin-top: 10px;
+
+  &__item {
+    & + & {
+      margin-left: 16px;
+    }
+  }
+}

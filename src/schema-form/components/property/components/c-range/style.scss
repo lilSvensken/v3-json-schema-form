@@ -1,0 +1,23 @@
+.range {
+  width: 100%;
+  margin-top: 10px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &__input {
+    width: 100%;
+    cursor: pointer;
+    border: solid 1px var(--main-color);
+    border-radius: 8px;
+    height: 7px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+
+    &--error {
+      border-color: var(--red-color);
+    }
+  }
+}

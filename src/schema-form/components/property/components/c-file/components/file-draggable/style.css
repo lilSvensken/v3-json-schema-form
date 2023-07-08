@@ -1,0 +1,32 @@
+@charset "UTF-8";
+.file-draggable {
+  margin-top: 10px;
+  cursor: pointer;
+  width: 100%;
+  height: 100px;
+  background-color: var(--light-color);
+  border: 1px solid var(--black-color);
+  transition: opacity 250ms;
+  position: relative;
+}
+.file-draggable--dragover {
+  opacity: 0.6;
+}
+.file-draggable:first-child {
+  margin-top: 0;
+}
+.file-draggable::before {
+  position: absolute;
+  content: "Перетащите сюда";
+  color: var(--white-color);
+  white-space: nowrap;
+  font-size: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.file-draggable__input {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,42 @@
+.list {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.list__name-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 230px;
+  padding-left: 20px;
+  position: relative;
+}
+.list__name-wrapper::before {
+  position: absolute;
+  content: "";
+  top: 6px;
+  left: 10px;
+  width: 4px;
+  height: 4px;
+  background-color: var(--black-color);
+  border-radius: 100%;
+}
+.list__name-wrapper + .list__name-wrapper {
+  margin-top: 4px;
+}
+.list__name {
+  font-size: 14px;
+  width: 100%;
+  flex: 1 1 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.list__btn-remove {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

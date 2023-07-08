@@ -1,0 +1,11 @@
+.select {
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 200ms;
+  width: 100%;
+}
+.select:first-child {
+  margin-top: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

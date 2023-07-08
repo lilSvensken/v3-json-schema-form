@@ -1,0 +1,12 @@
+.radios {
+  display: flex;
+  margin-top: 10px;
+}
+.radios:first-child {
+  margin-top: 0;
+}
+.radios__item + .radios__item {
+  margin-left: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */

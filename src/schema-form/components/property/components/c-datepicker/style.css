@@ -1,0 +1,11 @@
+.datepicker {
+  margin-top: 10px;
+}
+.datepicker:first-child {
+  margin-top: 0;
+}
+.datepicker__input {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

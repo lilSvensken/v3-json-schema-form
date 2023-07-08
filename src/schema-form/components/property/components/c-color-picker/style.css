@@ -1,0 +1,13 @@
+.color-picker {
+  width: 100%;
+  margin-top: 10px;
+}
+.color-picker:first-child {
+  margin-top: 0;
+}
+.color-picker__input {
+  width: 100%;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

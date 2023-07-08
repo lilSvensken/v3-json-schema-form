@@ -1,0 +1,9 @@
+.checkboxes {
+  display: flex;
+  margin-top: 10px;
+}
+.checkboxes__checkbox + .checkboxes__checkbox {
+  margin-left: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */

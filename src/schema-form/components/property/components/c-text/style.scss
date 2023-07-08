@@ -1,0 +1,17 @@
+@import "@/schema-form/styles/mixins.scss";
+
+.field {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &__input {
+    @include reset-base-styles;
+    display: inline-block;
+    width: 100%;
+  }
+}

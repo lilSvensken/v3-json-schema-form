@@ -1,0 +1,10 @@
+.checkboxes {
+  display: flex;
+  margin-top: 10px;
+
+  &__checkbox {
+    & + & {
+      margin-left: 16px;
+    }
+  }
+}

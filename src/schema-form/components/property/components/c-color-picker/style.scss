@@ -1,0 +1,17 @@
+.color-picker {
+  width: 100%;
+  margin-top: 10px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &__input {
+    width: 100%;
+    cursor: pointer;
+
+    &--error {
+      border-color: var(--red-color);
+    }
+  }
+}
