@@ -1,5 +1,5 @@
 # json-schema
-Library for converting JsonSchema to Form in field validation
+Library for converting JsonSchema to Form in field validation (for JS)
 
 For Vue 3 and Vanilla JS
 
