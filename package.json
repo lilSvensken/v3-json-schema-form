@@ -1,5 +1,5 @@
 {
-  "name": "json-schema-form",
+  "name": "v3-json-schema-form",
   "description": "Library for converting JsonSchema to Form in field validation",
   "version": "0.0.0",
   "scripts": {
