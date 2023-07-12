@@ -1,63 +1,21 @@
 # json-schema
 Library for converting JsonSchema to Form in field validation
 
-For Vue 3 and Vanilla JS
+For Vue 3
 
 # 📦 Installation
 ```shell
-npm i github:lilSvensken/json-schema-form
-```
-### Or client-side usage
-save locally the files from the  [/lib-to-connect](#https://github.com/lilSvensken/json-schema-form/tree/master/lib-to-connect)
-```js
-// reset pinia errors and library vue@3.3.2 (dev)
-<script src="lib-to-connect/common.js"></script>
-// copy /dist/schema-form.umd.js
-<script src="lib-to-connect/schema-form.umd.js"></script>
-// styles
-<link rel="stylesheet" href="lib-to-connect/style.css">
+npm i v3-json-schema-form
 ```
 
-# Getting Started
-
-## 🔨 Usage JS
-### import module
-```js
-import SchemaForm from "~/vue3-json-schema-form/dist/schema-form.es.js";
-import "~/vue3-json-schema-form/dist/style.css";
-
-const app = document.getElementById("app");
-const json = {
-	"title": "My Json Schema",
-	"type": "object",
-	"properties": { "name": { "title": "Имя", "type": "string" } }
-};
-const formData = { name: "Default Name" };
-const props = { schema: json, formData }
-
-SchemaForm;
-window.createSchemaForm(app, props);
-```
-```js
-const app = document.getElementById("app");
-const json = {
-	"title": "My Json Schema",
-	"type": "object",
-	"properties": { "name": { "title": "Имя", "type": "string" } }
-};
-const formData = { name: "Default Name" };
-const props = { schema: json, formData }
-window.createSchemaForm(app, props);
-```
-
-# 🔨 Usage Vue-3
+# 🔨 Usage
 
 ```js
 // index.js
 import App from "./App.vue";
 import { createApp } from "vue";
-import SchemaForm from "~/vue3-json-schema-form/dist/schema-form.es.js";
-import "~/vue3-json-schema-form/dist/style.css";
+import SchemaForm from "v3-json-schema-form/dist/schema-form.es.js";
+import "v3-json-schema-form/dist/style.css";
 
 const app = createApp(App);
 app.use(SchemaForm);
