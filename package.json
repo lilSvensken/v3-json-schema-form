@@ -20,7 +20,7 @@
   "files": ["dist"],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lilSvensken/json-schema-form.git"
+    "url": "git+https://github.com/lilSvensken/v3-json-schema-form.git"
   },
   "dependencies": {
     "@vue/eslint-config-prettier": "^7.1.0",
@@ -35,5 +35,10 @@
     "eslint": "^8.39.0",
     "eslint-plugin-vue": "^9.11.0",
     "vite": "^4.3.5"
-  }
+  },
+  "author": "lilsvensken",
+  "bugs": {
+    "url": "https://github.com/lilSvensken/v3-json-schema-form/issues"
+  },
+  "homepage": "https://github.com/lilSvensken/v3-json-schema-form#readme"
 }

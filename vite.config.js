@@ -8,7 +8,6 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     lib: {
-      formats: ["umd"],
       entry: resolve(__dirname, "src/index.js"),
       name: "schema-form",
       fileName: (format) => `schema-form.${format}.js`,
