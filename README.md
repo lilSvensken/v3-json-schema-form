@@ -1,11 +1,11 @@
 # json-schema
 Library for converting JsonSchema to Form in field validation (for JS)
 
-For Vue 3 and Vanilla JS
+Vanilla JS
 
 # 📦 Installation
 ```shell
-npm i github:lilSvensken/json-schema-form
+npm i js-json-schema-form
 ```
 ### Or client-side usage
 save locally the files from the  [/lib-to-connect](#https://github.com/lilSvensken/json-schema-form/tree/master/lib-to-connect)
@@ -19,8 +19,6 @@ save locally the files from the  [/lib-to-connect](#https://github.com/lilSvensk
 ```
 
 # Getting Started
-
-## 🔨 Usage JS
 ### import module
 ```js
 import SchemaForm from "~/vue3-json-schema-form/dist/schema-form.es.js";
@@ -38,7 +36,7 @@ const props = { schema: json, formData }
 SchemaForm;
 window.createSchemaForm(app, props);
 ```
-```js
+```OR js
 const app = document.getElementById("app");
 const json = {
 	"title": "My Json Schema",
@@ -48,53 +46,6 @@ const json = {
 const formData = { name: "Default Name" };
 const props = { schema: json, formData }
 window.createSchemaForm(app, props);
-```
-
-# 🔨 Usage Vue-3
-
-```js
-// index.js
-import App from "./App.vue";
-import { createApp } from "vue";
-import SchemaForm from "~/vue3-json-schema-form/dist/schema-form.es.js";
-import "~/vue3-json-schema-form/dist/style.css";
-
-const app = createApp(App);
-app.use(SchemaForm);
-app.mount("#app");
-```
-
-```html
-<!-- component.vue -->
-<template>
-  <schema-form
-    :schema="schema"
-    :form-data="form"
-    @on-change-form="onChangeForm"
-    @onSubmit="onSubmit"
-  />
-</template>
-<script>
-  import json from "./json-schema";
-
-  export default {
-    name: "component",
-    data() {
-      return {
-        schema: json,
-        form: {},
-      };
-    },
-    methods: {
-      onChangeForm(newForm) {
-        this.form = newForm;
-      },
-      onSubmit() {
-        console.table(this.form);
-      },
-    },
-  };
-</script>
 ```
 
 # schema JSON parameters:
