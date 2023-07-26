@@ -1,7 +1,7 @@
 {
   "name": "v3-json-schema-form",
   "description": "Library for converting JsonSchema to Form in field validation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -40,5 +40,12 @@
   "bugs": {
     "url": "https://github.com/lilSvensken/v3-json-schema-form/issues"
   },
-  "homepage": "https://github.com/lilSvensken/v3-json-schema-form#readme"
+  "homepage": "https://github.com/lilSvensken/v3-json-schema-form#readme",
+  "keywords": [
+    "vue",
+    "vue-component",
+    "json-schema",
+    "json",
+    "form-generate"
+  ]
 }
